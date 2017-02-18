@@ -8,17 +8,16 @@ background-image: url("banana.gif");
 font-size:300%;
 }
 </style>
-<title>Bananna Gif</title>
+<title>Banana Gif</title>
 </head>
 <body>
-<button onclick="bananna()">Create Banana!!!</button>
-
 <script>
-function bananna() {
-var bananna = document.createElement("p");
-var banannatext = document.createTextNode("Banana!!!");
-bananna.appendChild(banannatext);
-document.body.appendChild(bananna);
+setInterval(forever, 1)
+forever() {
+var banana = document.createElement("p");
+var bananatext = document.createTextNode("Banana!!!");
+banana.appendChild(bananatext);
+document.body.appendChild(banana);
 }
 </script>
 </body>
